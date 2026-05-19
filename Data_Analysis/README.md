@@ -31,7 +31,7 @@ This packages is how python converts the mseed files from the Minimus to CSV's.
 
 ------------------------------------------------------------------------------------------------------
 
-### CE_Analysis_Code: FIle Section
+### CE_Analysis_Code: File Section
 
 As stated prior, the code incorperates both the magnetometer and the seismometer analysis methods. When you first start the code you will be greeted with this menu:
 ```
@@ -66,12 +66,20 @@ After you've select your desired analytical method, a pop-up will appear. This p
 ----------------------------------------------
 
 ### Code Functions
-The code has three primary plotting functions.
-- Time series
-- Amplitude Spectral Density Plot (ASD Plot)
-- Spectrogram
+After the file(s) is selected, you will see this menu:
 
-After you've selected your desired file
+```
+-----------------------------------------------
+        === Sensor Analysis Menu ===
+                       
+         1: Plot Time Series
+         2: Plot FFT Spectrum
+         3: Plot Spectrogram
+         x: Return to sensor menu
+                       
+-----------------------------------------------
+```
+This is where you can analyze the field data. Each of the functions has additions menus that allow you to refine the data's fidelity.
 
 If there is any furthr confusion, this is a video going through the data acquisition process as well as using the code.
 https://www.youtube.com/watch?v=Re8FvCaCeBg
