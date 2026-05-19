@@ -1,7 +1,16 @@
 # Read Me
-## Data Analysis Code
+## CE_Analysis_Code
 
-This is the analysis code for the data retrieved when conducting CE site testing. Everything for the magnetometer and seismometer analysis is contained in this is code. There is a .py version, which will run on any system that can run python. As well as a .ipynb, if you are using jupyter notebook. The code operates via a GUI and user inputs. This way the user does not have to maunally go into the code and change variables.
+This is the main code for analyzing the field data. Everything for the magnetometer and seismometer analysis is contained in this code. There is a .py version, which will run on any system that can run python. As well as a .ipynb, if you are using jupyter notebook. This code is capable of plotting time series, spectra, and spectrograms. You are able to select between these functions and their variables with numbered inputs. You can change variables to increase fidelity and/or plot limits.
+
+## CE_analysis_gui
+
+This is a GUI version of the analysis code. It has various mains and windows to plot the time series, spectra, and spectrams. You can also easily select functions and change variables.
+
+## CE_Analaysis_Streak
+
+This is a stripped down version of the main analysis code. It only has the ability to plot a spectral diagrams, and you will have to go into the code to change variables. However, it is much quicker to use and recommended to use this in the field.
+
 
 Additionally, there are LIGO data files. These are so you can compare the field data to what is recorded at ligo. You will need to put these data files in the same directory as the code(s). The code should run with and without the data files downloaded.
 
@@ -42,6 +51,6 @@ The code has three primary plotting functions.
 
 There is a menu to go in between these functions. As well as additional menus to change the parameters of each plot and to further the data analysis process. Each function/option is denoted by a number. So, you simply need to type in the number an hit enter. 
 
-If you have any questions or confusion, this is a video going through the data acquisition process as well as using the code.
+If there is any furthr confusion, this is a video going through the data acquisition process as well as using the code.
 https://www.youtube.com/watch?v=Re8FvCaCeBg
 
