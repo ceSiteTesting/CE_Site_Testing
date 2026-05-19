@@ -1,4 +1,4 @@
-# Read Me
+# Please Read Before Using
 ## CE_Analysis_Code
 
 This is the main code for analyzing the field data. Everything for the magnetometer and seismometer analysis is contained in this code. There is a .py version, which will run on any system that can run python. As well as a .ipynb, if you are using jupyter notebook. This code is capable of plotting time series, spectra, and spectrograms. You are able to select between these functions and their variables with numbered inputs. You can change variables to increase fidelity and/or plot limits.
@@ -11,8 +11,11 @@ This is a GUI version of the analysis code. It has various mains and windows to 
 
 This is a stripped down version of the main analysis code. It only has the ability to plot a spectral diagrams, and you will have to go into the code to change variables. However, it is much quicker to use and recommended to use this in the field.
 
+------------------------------------------------------------------------------------------------------
 
 Additionally, there are LIGO data files. These are so you can compare the field data to what is recorded at ligo. You will need to put these data files in the same directory as the code(s). The code should run with and without the data files downloaded.
+
+------------------------------------------------
 
 In order for the code to operate properly, you'll need to install a package. To this in Jupyter, you'll need to go into the Qt Console; the built in terminal for anaconda navigator. There you can install the package via the method below.
 ```
