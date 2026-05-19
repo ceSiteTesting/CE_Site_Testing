@@ -27,6 +27,8 @@ pip install obspy
 ```
 After downloading the packages, you'll need to go to **Environments** and check that the packages are installed. If they are not appearing, you will need to select **Update Index**. You will then need to select the package and install it; this may take a bit. If any other packages are missing you can install them via the same method. Once everything is installed the codes should run properly
 
+------------------------------------------------------------------------------------------------------
+
 ### FIle Section
 As stated prior, the code incorperates both the magnetometer and the seismometer analysis methods. When you first start the code you will be see these:
 ```
