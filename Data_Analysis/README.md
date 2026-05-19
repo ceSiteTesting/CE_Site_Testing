@@ -12,6 +12,7 @@ This is a GUI version of the analysis code. It has various mains and windows to 
 This is a stripped down version of the main analysis code. It only has the ability to plot a spectral diagrams, and you will have to go into the code to change variables. However, it is much quicker to use and recommended to use this in the field.
 
 ------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 
 Additionally, there are LIGO data files. These are so you can compare the field data to what is recorded at ligo. You will need to put these data files in the same directory as the code(s). The code should run with and without the data files downloaded.
 
