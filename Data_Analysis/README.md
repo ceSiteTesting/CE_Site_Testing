@@ -82,6 +82,6 @@ After the file(s) is selected, you will see this menu:
 ```
 This is where you can analyze the field data. Each of the functions has additions menus that allow you to refine the data's fidelity.
 
-If there is any furthr confusion, this is a video going through the data acquisition process as well as using the code.
+If there is any further confusion, this is a video going through the data acquisition process as well as using the code.
 https://www.youtube.com/watch?v=Re8FvCaCeBg
 
