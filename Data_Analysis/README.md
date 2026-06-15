@@ -16,7 +16,7 @@ This is a stripped down version of the main analysis code. It only has the abili
 
 Additionally, there are LIGO data files. These are so you can compare the field data to what is recorded at ligo. You will need to put these data files in the same directory as the code(s). The code should run with and without the data files downloaded.
 
-------------------------------------------------
+##
 
 In order for the code to operate properly, you'll need to install a package. To this in Jupyter, you'll need to go into the Qt Console; the built in terminal for anaconda navigator. There you can install the package via the method below.
 ```
