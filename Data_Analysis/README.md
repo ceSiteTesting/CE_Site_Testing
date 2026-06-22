@@ -30,6 +30,16 @@ After downloading the packages, you'll need to go to **Environments** and check 
 
 This packages is how python converts the mseed files from the Minimus to CSV's.
 
+Since the codes were written in Python 3.9.25, you may also need to create a new Python environment to run the codes. Additionally, you may need to download certain versions of packages.
+
+```
+conda install matplotlib=3.5.2
+conda install numpy=1.21.5
+conda install obspy=1.4.2
+conda install pandas=1.4.4
+conda install scipy=1.9.1
+```
+
 ------------------------------------------------------------------------------------------------------
 
 ### CE_Analysis_Code: File Section
