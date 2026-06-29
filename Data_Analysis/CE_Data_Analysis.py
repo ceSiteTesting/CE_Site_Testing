@@ -38,7 +38,6 @@ import obspy
 from obspy import UTCDateTime
 import tkinter as tk
 from tkinter import filedialog
-from tkinter import PhotoImage
 import pandas as pd
 import numpy as np
 print("thinking...")
@@ -49,6 +48,7 @@ print("thinking...")
 import matplotlib.ticker as mticker
 import warnings  ## If warnings are still being printed out, just move the ignore line below whatever is causing the warning(s)
 import os
+print("\nReady (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧")
 
 
 
@@ -1771,7 +1771,7 @@ x: Exit
             
             pre_amp_on = input("\nWere the pre-amps on? (y or n)  ").strip().lower()
 
-            if pre_amp_on == "y" or "y":
+            if pre_amp_on == "y":
                 pre_amp = True
             else:
                 pre_amp = False
@@ -1828,7 +1828,7 @@ x: Exit
 
                 pre_amp_on = input("\nWere the pre-amps on? (y or n)  ").strip().lower()
 
-                if pre_amp_on == "y" or "y":
+                if pre_amp_on == "y":
                     pre_amp = True
                 else:
                     pre_amp = False
