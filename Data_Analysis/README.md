@@ -11,6 +11,13 @@ This is a GUI version of the analysis code. It has various mains and windows to 
 
 This is a stripped down version of the main analysis code. It only has the ability to plot a spectral diagrams, and you will have to go into the code to change variables. However, it is much quicker to use and recommended to use this in the field.
 
+## CE_analysis_two_channel_compare
+
+This is a code for when two seismometers are being ran off the same WebDAQ. There is a variable for if the 40T or the 3T is plugged in first. Other than this variable it is almost the same as the Streak version.
+
+## three_seis_huddle
+
+This is used for a huddle test with a LIGO seismometer and the two seismometer set up.
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
 
