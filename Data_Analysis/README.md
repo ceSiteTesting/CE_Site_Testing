@@ -18,6 +18,7 @@ This is a code for when two seismometers are being ran off the same WebDAQ. Ther
 ## three_seis_huddle
 
 This is used for a huddle test with a LIGO seismometer and the two seismometer set up.
+
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
 
